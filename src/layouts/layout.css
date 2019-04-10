@@ -198,6 +198,23 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+.app{
+
+}
+
+button {
+  background-color: rgb(161, 161, 161);
+  border: none;
+  color: white;
+  width: 300px;
+  height: 300px;
+  padding: 10px 16px;
+  font-size: 40px;
+  line-height: 1.33;
+  border-radius: 50%;
+}
+
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
