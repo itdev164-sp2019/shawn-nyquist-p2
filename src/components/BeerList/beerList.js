@@ -13,4 +13,8 @@ const beerList = [
     {id: 12, name: 'Guiness', alcoholContent: 14, price: '$$&'},
 ]
 
-export beerList
+
+
+export default {
+    beerList,
+};

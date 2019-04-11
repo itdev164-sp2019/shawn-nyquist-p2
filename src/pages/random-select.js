@@ -1,20 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import beerList from "../components/BeerList/beerList"
 
-import { Dropdown } from 'react-bootstrap/Dropdown'
-import { DropdownItem } from 'react-bootstrap/DropdownItem'
-import { DropdownMenu } from 'react-bootstrap/DropdownMenu'
-import { DropdownToggle } from 'react-bootstrap/DropdownToggle'
 import Layout from "../layouts/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+const array = beerList;
 
 const RandomBeerPage = () => (
   <Layout>
-    
-    <p1>List of all beers!</p1>
+  <div>
+    <h4>We will randomly pick a beer for you!</h4>
+    <h4>{beerList[1].name}</h4>
+  </div>  
   </Layout>
 )
 
