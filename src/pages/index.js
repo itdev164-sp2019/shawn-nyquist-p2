@@ -5,18 +5,22 @@ import Layout from "../layouts/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import styled from 'styled-components'
+import { Button as Base } from 'rebass'
+import "./styles.css"
 
 
 const IndexPage = () => (
   <Layout>
-    <div className="App">
+    <div className="ButtonGroup">
       <button><Link to="/random-select">Pick A Beer For Me!</Link></button>
       <button><Link to="/beer-list">Show Me All Beers!</Link></button>
       <button><Link to="/select">Help Me Pick A Beer!</Link></button>  
-    </div>  
+    </div>
+    <div>
+      
+    
+    </div>
   </Layout>
 )
 
